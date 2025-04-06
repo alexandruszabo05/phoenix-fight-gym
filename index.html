@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Transformă-ți pasiunea în performanță la Phoenix Fight Gym! Antrenamente de box, kickboxing, Muay Thay și BJJ  într-un spațiu dedicat celor care vor să se depășească pe sine."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Acasa - Phoenix Fight Gym</title>
+
+    <script defer src="js/script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a7959541dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class=" ">
+    <header class="header">
+      <div class="container header--flex">
+        <a href="index.html">
+          <img class="logo" alt="Phoenix Fight Gym logo" src="img/logo.png" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link nav-link--link" href="index.html">Acasa</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--link" href="program.html">Program</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--link" href="preturi.html">Preturi</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--btn btn--show-modal" href="#"
+                >Înscrie-te</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="container">
+          <div class="hero">
+            <div class="hero-text-box">
+              <h1 class="heading-primary">
+                Mai mult decât o sală de arte martiale, calea ta spre
+                transformare
+              </h1>
+              <p class="hero-description">
+                Fiecare campion a fost cândva un începător care a făcut primul
+                pas. Totul începe cu un antrenament. Alege-l pe al tău!
+              </p>
+              <a href="#courses" class="btn btn--full">
+                Cursurile noastre &DownArrow;</a
+              >
+            </div>
+            <div class="hero-img-box"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-courses" id="courses">
+        <div class="container">
+          <span class="subheading">Cursuri</span>
+          <h2 class="heading-secondary">
+            Alege-ti disciplina, începe călătoria
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- CURSUL 01 -->
+          <div class="course-text-box">
+            <p class="course-name">Box</p>
+            <h3 class="heading-tertiary">Viteză. Fortă. Precizie.</h3>
+            <p class="course-description">
+              Învată arta boxului, unde fiecare lovitură contează. Antrenează-ti
+              reflexele, îmbunătătește-ti coordonarea și dezvoltă o conditie
+              fizică de fier.
+            </p>
+          </div>
+          <div class="course-img-box">
+            <img
+              src="img/box-img.jpg"
+              class="course-img"
+              alt="Sportiv care boxează"
+            />
+          </div>
+
+          <!-- CURSUL 02 -->
+          <div class="course-img-box">
+            <img
+              src="img/kick-img.jpg"
+              class="course-img"
+              alt="Doi sportivi practică tehnici de kickboxing"
+            />
+          </div>
+          <div class="course-text-box">
+            <p class="course-name">Kickboxing</p>
+            <h3 class="heading-tertiary">
+              Puterea pumnilor și precizia loviturilor
+            </h3>
+            <p class="course-description">
+              Combină viteza boxului cu loviturile puternice de picior.
+              Îmbunătătește-ti forta, agilitatea și rezistenta într-un sport
+              exploziv.
+            </p>
+          </div>
+
+          <!-- CURSUL 03 -->
+          <div class="course-text-box">
+            <p class="course-name">Muay Thai</p>
+            <h3 class="heading-tertiary">Arta celor 8 arme</h3>
+            <p class="course-description">
+              Descoperă tehnicile devastatoare de genunchi, coate, pumni și
+              picioare. Un stil agresiv, ideal pentru cei care vor să-și
+              depășească limitele.
+            </p>
+          </div>
+          <div class="course-img-box">
+            <img
+              src="img/muay-img.jpg"
+              class="course-img"
+              alt="Doi luptători de Muay Thai se confruntă în ring"
+            />
+          </div>
+
+          <!-- CURSUL 04 -->
+          <div class="course-img-box">
+            <img
+              src="img/bjj-img.jpg"
+              class="course-img"
+              alt="Doi sportivi exersând tehnici de BJJ"
+            />
+          </div>
+          <div class="course-text-box">
+            <p class="course-name">BJJ</p>
+            <h3 class="heading-tertiary">Tehnică peste fortă</h3>
+            <p class="course-description">
+              Brazilian Jiu-Jitsu este un sport bazat pe strategie și control.
+              Învată să domini adversarii cu tehnici de grappling și submission,
+              indiferent de greutate sau fortă.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-testimonials">
+        <div class="container section-title">
+          <span class="subheading">Testimoniale</span>
+          <h2 class="heading-secondary">
+            Poveștile celor care au acceptat provocarea
+          </h2>
+        </div>
+
+        <div class="slider">
+          <div class="slide slide--1">
+            <div class="testimonial">
+              <h4 class="testimonial-header">
+                La Phoenix Gym am învătat să lupt cu mine însumi
+              </h4>
+              <blockquote class="testimonial-text">
+                Am început să vin la Phoenix Fight Gym fără nicio experientă
+                anterioară, doar cu dorinta de a mă schimba. Antrenamentele de
+                box și kickbox mi-au oferit nu doar tehnici de autoapărare, dar
+                și o disciplină deosebită. Antrenorii sunt adevărati
+                profesioniști și te încurajează mereu să îti depășești limitele.
+                La Phoenix am învătat să fiu mai puternic, atât fizic cât și
+                mental!
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="img/user-1.jpg"
+                  alt="Fotografie client"
+                  class="testimonial-photo"
+                />
+                <h4 class="testimonial-name">Alex, 28 de ani</h4>
+                <p class="testimonial-location">Alba Iulia</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide--2">
+            <div class="testimonial">
+              <h4 class="testimonial-header">
+                Atmosfera din sală m-a făcut să rămân
+              </h4>
+              <blockquote class="testimonial-text">
+                Când am intrat prima dată la Phoenix Fight Gym, nu doar că am
+                descoperit antrenamente excelente de BJJ, dar am simtit că fac
+                parte dintr-o familie. Antrenorii sunt extrem de dedicati și mă
+                motivează constant. La Phoenix, fiecare antrenament e o
+                provocare, dar și o oportunitate de a învăta și de a crește.
+                Aici am găsit nu doar un loc de antrenament, ci o comunitate!
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="img/user-2.jpg"
+                  alt="Fotografie client"
+                  class="testimonial-photo"
+                />
+                <h4 class="testimonial-name">Maria, 23 de ani</h4>
+                <p class="testimonial-location">Deva</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide slide--3">
+            <div class="testimonial">
+              <h4 class="testimonial-header">
+                Echipa Phoenix mi-a oferit mai mult decât un loc de antrenament
+              </h4>
+              <blockquote class="testimonial-text">
+                Initial am venit la Phoenix Fight Gym pentru kickbox, dar ceea
+                ce am găsit aici mi-a schimbat complet perspectiva. Am învătat
+                nu doar tehnici de autoapărare, dar și cum să fiu mai
+                disciplinat și mai concentrat în viata de zi cu zi. Antrenorii
+                sunt extrem de bine pregătiti și atmosfera din sală mă motivează
+                să dau tot ce am mai bun la fiecare antrenament. Am devenit mai
+                puternic, mai încrezător și mai echilibrat.
+              </blockquote>
+              <div class="testimonial-author">
+                <img
+                  src="img/user-3.jpg"
+                  alt="Fotografie client"
+                  class="testimonial-photo"
+                />
+                <h4 class="testimonial-name">Marius, 20 de ani</h4>
+                <p class="testimonial-location">Sebeș</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-btn slider-btn--left">&larr;</button>
+          <button class="slider-btn slider-btn--right">&rarr;</button>
+          <div class="dots"></div>
+        </div>
+      </section>
+
+      <section class="section section-cta">
+        <div class="cta-container">
+          <div class="cta">
+            <h3 class="heading-tertiary">Primul antrenament gratuit</h3>
+            <button class="btn--cta btn--show-modal">Înscrie-te</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-nav">
+        <li class="footer-item">
+          <a class="footer-link" href="index.html">Acasa</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="program.html">Program</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="preturi.html">Preturi</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="#courses">Cursuri</a>
+        </li>
+      </ul>
+      <a href="index.html"
+        ><img
+          src="img/logo2.png"
+          alt="Phoenix Fight Gym logo"
+          class="footer-logo"
+      /></a>
+      <p class="footer-copyright">
+        Website realizat de <strong>Alexandru Szabo</strong>
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal-header">
+        Completează formularul și te vom contacta în scurt timp
+      </h2>
+      <form class="modal-form">
+        <label for="nume">Nume</label>
+        <input
+          class="form-input"
+          id="nume"
+          type="text"
+          placeholder="Popescu"
+          required
+        />
+        <label for="prenume">Prenume</label>
+        <input
+          class="form-input"
+          id="prenume"
+          type="text"
+          placeholder="Andrei"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          class="form-input"
+          id="email"
+          type="email"
+          placeholder="popescuandrei@gmail.com"
+          required
+        />
+        <button class="btn--modal">Confirmă</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

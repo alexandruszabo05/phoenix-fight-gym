@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="Descoperă prețurile accesibile ale antrenamentelor la Phoenix Fight Gym! Investiția în sănătatea ta și în dezvoltarea abilităților tale de arte marțiale începe aici."
+    />
+
+    <link rel="icon" href="img/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <title>Preturi - Phoenix Fight Gym</title>
+
+    <script defer src="js/script-preturi.js"></script>
+    <script
+      src="https://kit.fontawesome.com/a7959541dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class=" ">
+    <header class="header">
+      <div class="container header--flex">
+        <a href="index.html">
+          <img class="logo" alt="Phoenix Fight Gym logo" src="img/logo.png" />
+        </a>
+
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a class="nav-link nav-link--link" href="index.html">Acasa</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--link" href="program.html">Program</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--link" href="preturi.html">Preturi</a>
+            </li>
+            <li>
+              <a class="nav-link nav-link--btn btn--show-modal" href="#"
+                >Înscrie-te</a
+              >
+            </li>
+          </ul>
+        </nav>
+
+        <button class="btn-mobile-nav">
+          <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+          <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section section-prices">
+        <div class="container section-title">
+          <span class="subheading">Preturi</span>
+          <h2 class="heading-secondary">Investitie minimă, rezultate maxime</h2>
+        </div>
+
+        <div class="container grid grid--2-cols">
+          <div class="pricing-plan pricing-plan--month">
+            <div class="plan">
+              <p class="plan-name">Lunar</p>
+              <p class="plan-price">499 <span>ron / lună</span></p>
+              <p class="plan-text">
+                Primul antrenament gratuit la orice disciplină
+              </p>
+            </div>
+          </div>
+          <div class="pricing-plan pricing-plan--year">
+            <div class="plan">
+              <p class="plan-name">Anual</p>
+              <p class="plan-price">4800 <span>ron / an</span></p>
+              <p class="plan-text">Doar <strong>400</strong> ron / lună</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-cta">
+        <div class="cta-container">
+          <div class="cta">
+            <h3 class="heading-tertiary">Primul antrenament gratuit</h3>
+            <button class="btn--cta btn--show-modal">Înscrie-te</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-nav">
+        <li class="footer-item">
+          <a class="footer-link" href="index.html">Acasa</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="program.html">Program</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="preturi.html">Preturi</a>
+        </li>
+        <li class="footer-item">
+          <a class="footer-link" href="index.html#courses">Cursuri</a>
+        </li>
+      </ul>
+      <a href="index.html"
+        ><img
+          src="img/logo2.png"
+          alt="Phoenix Fight Gym logo"
+          class="footer-logo"
+      /></a>
+      <p class="footer-copyright">
+        Website realizat de <strong>Alexandru Szabo</strong>
+      </p>
+    </footer>
+
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal-header">
+        Completează formularul și te vom contacta în scurt timp
+      </h2>
+      <form class="modal-form">
+        <label for="nume">Nume</label>
+        <input
+          class="form-input"
+          id="nume"
+          type="text"
+          placeholder="Popescu"
+          required
+        />
+        <label for="prenume">Prenume</label>
+        <input
+          class="form-input"
+          id="prenume"
+          type="text"
+          placeholder="Andrei"
+          required
+        />
+        <label for="email">Email</label>
+        <input
+          class="form-input"
+          id="email"
+          type="email"
+          placeholder="popescuandrei@gmail.com"
+          required
+        />
+        <button class="btn--modal">Confirmă</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
